@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding:0;
+}
+h1, p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: red;
+}
+
+.divFormulario {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 620px;
+    display: flex;
+ flex-direction: column;
+    margin: 0 auto;
+    margin: 10% auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+form {
+    border: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+form > input[type="text"], form > input[type="password"] {
+    height: 43px;
+    margin: 11px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+form > p {
+   margin: 14px auto;
+}
+.porcentajeProgreso {
+    transition: 2s;
+}
+.containerProgreso {
+    border: 1px solid black;
+    width: 95%;
+    margin: 10px 15px;
+    border-radius: 3px;
+}
+.barraProgeso {
+    border-radius: 3px;
+    width: 0%;
+    transition: 2s;
+    height: 7px;
+    background: red;
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+}
+form > input[type="submit"], .buttonGenerar {
+        cursor: pointer;
+        width: 50%;
+    margin: 10px auto;
+    height: 41px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.imagenForm {
+    position: absolute;
+    right: 4%;
+    width: 39px;
+    top: 37%;
+    cursor: pointer;
+}
+
+form > input[type="submit"]:hover, .buttonGenerar:hover{
+    border: 1px solid green;
+    
+}
